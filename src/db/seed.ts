@@ -29,9 +29,9 @@ async function seed() {
   try {
     const result = await auth.api.signUpEmail({
       body: {
-        name: "INFOKOM",
-        email: "infokomhimasda@gmail.com",
-        password: process.env.ADMIN_PASSWORD || "#SuperGokil99#",
+        name: "superadmin",
+        email: "infokom@himasda.com",
+        password: "#SuperGokil99#",
       },
     });
     console.log("✅ Admin user created:", result.user.email);

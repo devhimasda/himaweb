@@ -127,10 +127,7 @@ export default async function HomePage() {
                 color: "var(--color-text-secondary)",
                 lineHeight: 1.8,
               }}>
-                To become a leading student organization that empowers every
-                member to reach their highest potential — academically,
-                professionally, and personally — while building a culture of
-                excellence and collaboration across campus.
+                Mewujudkan himpunan mahasiswa S1 Sains Data yang adaptif, kreatif, dan inovatif        dalam mengembangkan potensi dan kualitas diri, baik dibidang akademik maupun non akademik.
               </p>
             </div>
 
@@ -155,10 +152,10 @@ export default async function HomePage() {
                 gap: "var(--space-3)",
               }}>
                 {[
-                  "Foster academic excellence through programs and workshops",
-                  "Build meaningful community through events and outreach",
-                  "Develop leadership and professional skills in every member",
-                  "Create an inclusive environment where every voice matters",
+                  "Mewujudkan keterbukaan ide-ide kreatif, inovatif, serta revolusioner dari seluruh lini mahasiswa S1 Sains Data",
+                  "Membuat sistem serta mekanisme himpunan lebih tegas dan progresif",
+                  "Memberikan wadah pada keterminatan, aspirasi, ruang bertumbuh, serta kritik untuk mahasiswa S1 Sains Data",
+                  "Menumbuhkan budaya disiplin, serta solidaritas guna mewujudkan sumber daya mahasiswa yang lebih unggul dan maju untuk kinerja yang jauh lebih optimal",
                 ].map((item) => (
                   <li key={item} style={{ display: "flex", gap: "var(--space-3)", alignItems: "flex-start" }}>
                     <span style={{ color: "var(--color-primary)", fontWeight: 600, flexShrink: 0 }}>—</span>
