@@ -47,3 +47,13 @@ node_modules/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+
+# ai configuration
+.agent/
+docs/
+CLAUDE.md
+AGENTS.md
+doc-eror.md
+
+# db
+src/db/seed.ts
